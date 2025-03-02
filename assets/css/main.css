@@ -475,6 +475,30 @@ h6 {
   font-size: 13px;
 }
 
+.footer {
+  background-color: #222;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer .social-links a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: var(--heading-color);
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
